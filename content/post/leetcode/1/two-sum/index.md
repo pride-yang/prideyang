@@ -1,6 +1,6 @@
 ---
 title: 'Two Sum'
-description:
+description: 'Two Sum'
 date: 2021-11-04T14:34:38+08:00
 image:
 math:
@@ -16,11 +16,7 @@ draft: false
 
 https://leetcode-cn.com/problems/two-sum/description/
 
-algorithms Easy (52.14%)
-Likes: 12492
-Dislikes: 0
-Total Accepted: 2.6M
-Total Submissions: 5.1M
+algorithms Easy (52.14%) Likes: 12492 Dislikes: 0 Total Accepted: 2.6M Total Submissions: 5.1M
 Testcase Example: '[2,7,11,15]\n9'
 
 给定一个整数数组 nums  和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那   两个  

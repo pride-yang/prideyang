@@ -184,14 +184,23 @@ menu:
       name: GitHub
       url: https://github.com/pride-yang
       params:
-        icon: brand-github
+        icon: fill-github
 
     - identifier: bilibili
       name: bilibili
       url: https://space.bilibili.com/89673196
       params:
-        icon: bilibili-line
-
+        icon: fill-bilibili
+    - identifier: weibo
+      name: weibo
+      url: https://weibo.com/u/5648434038
+      params:
+        icon: fill-weibo
+    - identifier: zhihu
+      name: zhihu
+      url: https://www.zhihu.com/people/zang-xin-18-71
+      params:
+        icon: fill-zhihu
 related:
   includeNewer: true
   threshold: 60

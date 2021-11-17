@@ -5,6 +5,10 @@ date: 2021-11-03T17:21:58+08:00
 image:
 math:
 license:
+categories:
+  - springmvc
+tags:
+  - spring
 hidden: false
 comments: false
 draft: false

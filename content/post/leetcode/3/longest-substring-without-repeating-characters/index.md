@@ -6,22 +6,26 @@ image:
 math:
 license:
 categories:
-  - spring
-tags:
   - leetcode
+tags:
+  - hash-table
+  - two-pointers
+  - string
+  - sliding-window
 hidden: false
 comments: false
 draft: false
 ---
 
-@lc app=leetcode.cn id=3 lang=java
+## 无重复字符的最长子串
+<!--more-->
+Category	Difficulty	Likes	Dislikes
+algorithms	Medium (38.17%)	6371	-
+Tags
+hash-table | two-pointers | string | sliding-window
 
-[3] 无重复字符的最长子串
-
-https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/
-
-algorithms Medium (38.16%) Likes: 6361 Dislikes: 0 Total Accepted: 1.3M Total Submissions: 3.4M
-Testcase Example: '"abcabcbb"'
+Companies
+adobe | amazon | bloomberg | yelp
 
 给定一个字符串 s ，请你找出其中不含有重复字符的   最长子串   的长度。
 
@@ -57,14 +61,13 @@ Testcase Example: '"abcabcbb"'
 0 <= s.length <= 5 * 104
 s 由英文字母、数字、符号和空格组成
 
-```
+```java
 
-// @lc code=start
 class Solution {
     public int lengthOfLongestSubstring(String s) {
 
     }
 }
-// @lc code=end
+
 
 ```

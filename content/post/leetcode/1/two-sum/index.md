@@ -6,22 +6,27 @@ image:
 math:
 license:
 categories:
-  - spring
-tags:
   - leetcode
+tags:
+  - array
+  - hashTable
 hidden: false
 comments: false
 draft: false
 ---
 
-@lc app=leetcode.cn id=1 lang=java
+## 两数之和
 
-[1] 两数之和
+<!--more-->
 
-https://leetcode-cn.com/problems/two-sum/description/
 
-algorithms Easy (52.14%) Likes: 12492 Dislikes: 0 Total Accepted: 2.6M Total Submissions: 5.1M
-Testcase Example: '[2,7,11,15]\n9'
+Category	Difficulty	Likes	Dislikes
+algorithms	Easy (52.15%)	12507	-
+Tags
+array | hash-table
+
+Companies
+adobe | airbnb | amazon | apple | bloomberg | dropbox | facebook | linkedin | microsoft | uber | yahoo | yelp
 
 给定一个整数数组 nums  和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那   两个  
 整数，并返回它们的数组下标。

@@ -6,7 +6,8 @@ image:
 math:
 license:
 categories:
-  - spring
+  - linked-list
+  - math
 tags:
   - leetcode
 hidden: false
@@ -14,11 +15,17 @@ comments: false
 draft: false
 ---
 
-/\* @lc app=leetcode.cn id=2 lang=java
+## 两数相加
+<!--more-->
 
-[2] 两数相加
+Category	Difficulty	Likes	Dislikes
+algorithms	Medium (40.97%)	7007	-
 
-https://leetcode-cn.com/problems/add-two-numbers/description/
+Tags
+linked-list | math
+
+Companies
+adobe | airbnb | amazon | bloomberg | microsoft
 
 algorithms Medium (40.97%) Likes: 6991 Dislikes: 0 Total Accepted: 1M Total Submissions: 2.6M
 Testcase Example: '[2,4,3]\n[5,6,4]'

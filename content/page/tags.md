@@ -1,8 +1,8 @@
 ---
-title: 'Tag'
+title: 'Tags'
 date: 2019-05-28
-layout: 'tag'
-slug: 'tag'
+layout: 'tags'
+slug: 'tags'
 menu:
   main:
     weight: -100

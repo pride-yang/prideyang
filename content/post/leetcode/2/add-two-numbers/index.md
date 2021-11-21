@@ -3,7 +3,7 @@ title: 'Add Two Numbers'
 description:
 date: 2021-11-04T21:23:28+08:00
 image:
-math:
+math: true
 license:
 categories:
   - linked-list
@@ -16,22 +16,19 @@ draft: false
 ---
 
 ## 两数相加
+
 <!--more-->
 
-Category	Difficulty	Likes	Dislikes
-algorithms	Medium (40.97%)	7007	-
+| Category   | Difficulty      | Likes | Dislikes |
+| ---------- | --------------- | ----- | -------- |
+| algorithms | Medium (40.97%) | 7007  | -        |
 
-Tags
-linked-list | math
+- Tags
+  - linked-list
+  - math
 
-Companies
-adobe | airbnb | amazon | bloomberg | microsoft
-
-algorithms Medium (40.97%) Likes: 6991 Dislikes: 0 Total Accepted: 1M Total Submissions: 2.6M
-Testcase Example: '[2,4,3]\n[5,6,4]'
-
-给你两个   非空 的链表，表示两个非负的整数。它们每位数字都是按照   逆序   的方式存储的，并且每个节点
-只能存储   一位   数字。
+给你两个**非空**的链表，表示两个非负的整数。它们每位数字都是按照**逆序**的方式存储的，并且每个节点只
+能存储**一位**数字。
 
 请你将两个数相加，并以相同形式返回一个表示和的链表。
 
@@ -64,15 +61,19 @@ Testcase Example: '[2,4,3]\n[5,6,4]'
 
 ```
 
-提示：
+> 提示：每个链表中的节点数在范围 [1, 100] 内 0 题目数据保证列表表示的数字不含前导零
 
-每个链表中的节点数在范围 [1, 100] 内 0 题目数据保证列表表示的数字不含前导零
+同时遍历两个链表，逐位计算它们的和，并与当前位置的进位值相加。具体而言，如果当前两个链表处相应位置的
+数字为 n1,n2，进位值为 $\textit{carry}$，则它们的和为 $n1+n2+ \textit{carry}$ ；其中，答案链表处相应
+位置的数字为$ (n1+n2+\textit{carry}) \bmod
+10$，而新的进位值为
+$\lfloor\frac{n1+n2+\textit{carry}}{10}\rfloor$。
 
-/
+如果两个链表的长度不同，则可以认为长度短的链表的后面有若干个 0 。
+
+此外，如果链表遍历结束后，有 $\textit{carry} > 0$。
 
 ```java
-// @lc code=start
-
 //  Definition for singly-linked list.
  public class ListNode {
      int val;

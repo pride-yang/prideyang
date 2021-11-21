@@ -19,17 +19,16 @@ draft: false
 
 <!--more-->
 
+| Category   | Difficulty    | Likes | Dislikes |
+| ---------- | ------------- | ----- | -------- |
+| algorithms | Easy (52.15%) | 12507 | -        |
 
-Category	Difficulty	Likes	Dislikes
-algorithms	Easy (52.15%)	12507	-
-Tags
-array | hash-table
+- Tags
+  - array
+  - hash-table
 
-Companies
-adobe | airbnb | amazon | apple | bloomberg | dropbox | facebook | linkedin | microsoft | uber | yahoo | yelp
-
-给定一个整数数组 nums  和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那   两个  
-整数，并返回它们的数组下标。
+给定一个整数数组**nums**和一个整数目标值 target，请你在该数组中找出 和为目标值**target**的那两个整数
+，并返回它们的数组下标。
 
 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
 
@@ -53,7 +52,7 @@ adobe | airbnb | amazon | apple | bloomberg | dropbox | facebook | linkedin | mi
 
 进阶：你可以想出一个时间复杂度小于 O(n^2) 的算法吗？
 
-```
+```java
 // @lc code=start
 class Solution {
    public int[] twoSum(int[] nums, int target) {

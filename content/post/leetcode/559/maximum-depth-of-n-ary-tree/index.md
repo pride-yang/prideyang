@@ -6,9 +6,9 @@ image:
 math: true
 license:
 categories:
-
+  - leetcode
 tags:
-
+  - tree
 hidden: false
 comments: false
 draft: false

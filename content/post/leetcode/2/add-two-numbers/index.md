@@ -6,10 +6,11 @@ image:
 math: true
 license:
 categories:
+  - leetcode
+tags:
   - linked-list
   - math
-tags:
-  - leetcode
+
 hidden: false
 comments: false
 draft: false

@@ -14,7 +14,7 @@ comments: false
 draft: false
 ---
 
-Search in a Binary Search Tree
+## Search in a Binary Search Tree
 
 <!--more-->
 

@@ -41,14 +41,15 @@ draft: false
 
 ```
 
-> 提示：树中节点数目范围在[1, 104] 内 -231 <= Node.val <= 231 - 1
+> 提示：树中节点数目范围在[1, 104] 内 $-2^{31} <= Node.val <= 2^{31} - 1$
 
 ```java
     //二叉搜索树 左节点小于右节点
     public boolean isValidBST(TreeNode root) {
         //add 添加到队尾 push 添加的队头
         Deque<TreeNode> stack = new LinkedList<>();
-        Integer pre = -Integer.MAX_VALUE;
+        //不用int 是存在极值的情况
+        double inorder = -Double.MAX_VALUE;
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);

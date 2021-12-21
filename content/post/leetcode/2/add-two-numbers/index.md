@@ -66,9 +66,11 @@ draft: false
 
 同时遍历两个链表，逐位计算它们的和，并与当前位置的进位值相加。具体而言，如果当前两个链表处相应位置的
 数字为 n1,n2，进位值为 $\textit{carry}$，则它们的和为 $n1+n2+ \textit{carry}$ ；其中，答案链表处相应
-位置的数字为$ (n1+n2+\textit{carry}) \bmod
-10$，而新的进位值为
-$\lfloor\frac{n1+n2+\textit{carry}}{10}\rfloor$。
+位置的数字为
+$$
+(n1+n2+\textit{carry}) \bmod10
+$$
+，而新的进位值为$\lfloor\frac{n1+n2+\textit{carry}}{10}\rfloor$。
 
 如果两个链表的长度不同，则可以认为长度短的链表的后面有若干个 0 。
 
